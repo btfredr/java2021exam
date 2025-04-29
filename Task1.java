@@ -9,20 +9,19 @@
  */
 
 public class Task1 {
-
-   
     public static void main(String[] args) {
-        
+        smallestOdd(25);
+        smallestOdd(34);
+        smallestOdd(-7);
     }
 
     public static void smallestOdd(int x) {
         if (x % 2 == 0) {
             int y = x+1;
-            System.out.print(y);
+            System.out.println(y);
         } else {
             int z = x+2;
-            System.out.print(z);
+            System.out.println(z);
         }
     }
-
 }
