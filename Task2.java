@@ -15,9 +15,8 @@ public class Task2 {
         char ltr = 'A';
 
         for (int i = 1; i <= 8; i++) {
-            System.out.print(i);
-            for (int j = 0; j < 8; j++) {
-                System.out.print(ltr);
+            for (int j = 1; j <= 8; j++) {
+                System.out.print("" + ltr + i + " ");
                 ltr++;
             }
             System.out.println();
