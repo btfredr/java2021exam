@@ -12,8 +12,14 @@ import java.util.Scanner;
 public class Task4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Please enter a Celcius temperature: ");
+        System.out.print("Please enter a Celcius temperature: ");   
+        int celcius = scanner.nextInt();
 
+        int formula = 9*celcius/5+32;
+
+        scanner.close();
+
+        System.out.print(formula);
         
     }
 
