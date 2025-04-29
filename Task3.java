@@ -9,13 +9,20 @@
 
 public class Task3 {
     public static void main(String[] args) {
-
+        oddOrEven(6);
+        oddOrEven(7);
     }
 
     public static void oddOrEven(int n) {
         if (n % 2 == 0) {
-            while(n < 0) {
-                int current = n + 2;
+
+            int count = 0;
+            int current = n + 2;
+
+            while(count < 5) {
+                System.out.println(current + " ");
+                current += 2;
+                count++;
             }
         } else {
             int multiply = n * 25;
