@@ -20,8 +20,5 @@ public class Task4 {
         scanner.close();
 
         System.out.print(formula);
-        
     }
-
-
 }
