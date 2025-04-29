@@ -14,10 +14,10 @@ public class Task2 {
     public static void main(String [] args) {
         char ltr = 'A';
 
-        for (int i = 0; i < 9; i++) {
-            System.out.print(ltr);
+        for (int i = 1; i <= 8; i++) {
+            System.out.print(i);
             for (int j = 1; j < i; j++) {
-                System.out.print(ltr + " ");
+                System.out.print(ltr);
                 ltr++;
             }
             System.out.println();
