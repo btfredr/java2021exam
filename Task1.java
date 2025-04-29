@@ -9,8 +9,20 @@
  */
 
 public class Task1 {
+
+   
     public static void main(String[] args) {
         
+    }
+
+    public static void smallestOdd(int x) {
+        if (x % 2 == 0) {
+            int y = x+1;
+            System.out.print(y);
+        } else {
+            int z = x+2;
+            System.out.print(z);
+        }
     }
 
 }
