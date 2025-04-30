@@ -10,12 +10,12 @@
 import java.util.Scanner;
 
 public class Task5 {
-
+    Scanner input = new Scanner(System.in);
+    
     public void printNumbersOfDigitsAndLetters(String input) {
         int digitCount = 0;
         int letterCount = 0;
         
-        Scanner scanner = new Scanner(System.in);
-        input = scanner.nextLine();
+
     }
 }
