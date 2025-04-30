@@ -32,7 +32,7 @@ public class Task5 {
             }
         }
 
-        System.out.print("The string contains " + digitCount + " digits, and " + letterCount + " letters.");
+        System.out.print("The line contains " + digitCount + " digits, and " + letterCount + " letters!");
 
     }
 }
