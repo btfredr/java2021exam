@@ -9,6 +9,9 @@ public class Test {
         Professors prof = new Professors(1, "Leon", "Hoff", 24, "CS", true);
         Advisors adv = new Advisors(1, "Geir", "Hagen", 45, "Economics");
 
-        
+
+        prof.print();
+
+        adv.printAllInfo();
     }
 }

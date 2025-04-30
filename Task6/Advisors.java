@@ -28,8 +28,8 @@ public class Advisors extends Employees {
         System.out.println("Advisor info:");
         System.out.println("Employee Number: " + getEmpNum());
         System.out.println("First Name: " + getFirstName());
-        System.out.print("Last Name: " + getFirstName());
-        System.out.print("Age: " + getAge());
+        System.out.println("Last Name: " + getFirstName());
+        System.out.println("Age: " + getAge());
         System.out.println("Department: " + department);
     }
 }

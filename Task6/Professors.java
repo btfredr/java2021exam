@@ -29,7 +29,7 @@ public class Professors extends Employees {
         System.out.println("Last Name: " + getLastName());
         System.out.println("Age: " + getAge());
         System.out.println("Course: " + getCourse());
-        System.out.print("Is the course active? " + isActive());
+        System.out.println("Is the course active? " + isActive());
     }
     
 }
