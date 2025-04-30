@@ -48,4 +48,37 @@ public class Employee {
     private String firstName;
     private String lastName;
     private int age;
+
+    // Get and set methods
+    public int empNum() {
+        return empNum;
+    }
+
+    public void setEmpNum(int empNum) {
+        this.empNum = empNum;
+    }
+
+    public String firstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String lastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public int age() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
