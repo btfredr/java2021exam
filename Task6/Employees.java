@@ -56,13 +56,13 @@ public class Employees {
     }
 
     // Method constructors
-    public void Employee(int number, String firstName, String lastName) {
+    public Employees(int number, String firstName, String lastName) {
         this.empNum = number;
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public void Employee(int number, String firstName, String lastName, int age) {
+    public Employees(int number, String firstName, String lastName, int age) {
         this.empNum = number;
         this.firstName = firstName;
         this.lastName = lastName;
