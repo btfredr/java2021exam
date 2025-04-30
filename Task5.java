@@ -10,12 +10,25 @@
 import java.util.Scanner;
 
 public class Task5 {
-    Scanner input = new Scanner(System.in);
+    static void main (String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please enter a sentence: ");
+
+    }
     
     public void printNumbersOfDigitsAndLetters(String input) {
         int digitCount = 0;
         int letterCount = 0;
         
+        for (int i = 0; i < input.length(); i++) {
+            if (Character.isLetter(input)) {
+                letterCount++;
+            } else {
+                digitCount++;
+            }
+        }
+
+        System.out.print("The string contains " + digitCount + " digits, and " + letterCount + " letters.");
 
     }
 }
