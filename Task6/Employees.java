@@ -45,9 +45,9 @@ package Task6;
 public class Employees {
     // private data fields
     private int empNum;
-    private String firstName;
-    private String lastName;
-    private int age;
+    public String firstName;
+    public String lastName;
+    public int age;
 
     public void print() {
         System.out.println("First Name: " + getFirstName());
