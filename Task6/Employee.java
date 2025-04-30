@@ -49,6 +49,21 @@ public class Employee {
     private String lastName;
     private int age;
 
+
+    // Method constructors
+    public Employee(int number, String firstName, String lastName) {
+        this.empNum = number;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public Employee(int number, String firstName, String lastName, int age) {
+        this.empNum = number;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
+    
     // Get and set methods
     public int empNum() {
         return empNum;
