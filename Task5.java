@@ -10,20 +10,22 @@
 import java.util.Scanner;
 
 public class Task5 {
-    static void main (String[] args) {
-        Scanner input = new Scanner(System.in);
+    public static void main (String[] args) {
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter a sentence: ");
+        String userInput = scanner.nextLine();
 
+        printNumbersOfDigitsAndLetters(userInput);
     }
     
-    public void printNumbersOfDigitsAndLetters(String input) {
+    public static void printNumbersOfDigitsAndLetters(String input) {
         int digitCount = 0;
         int letterCount = 0;
         
         for (int i = 0; i < input.length(); i++) {
-            if (Character.isLetter(input)) {
+            if (Character.isLetter(input.charAt(i))) {
                 letterCount++;
-            } else {
+            } else if (Character.isDigit(input.charAt(i))) {
                 digitCount++;
             }
         }
