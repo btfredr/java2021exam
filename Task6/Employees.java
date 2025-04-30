@@ -50,7 +50,6 @@ public class Employees {
     private int age;
 
     public void print() {
-        System.out.println("Employee Number: " + getEmpNum());
         System.out.println("First Name: " + getFirstName());
         System.out.println("Last Name: " + getLastName());
         System.out.println("Age: " + getAge());
