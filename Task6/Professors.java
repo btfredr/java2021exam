@@ -20,5 +20,16 @@ public class Professors extends Employees {
     public boolean isActive() {
         return courseIsActive;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Professor information: ");
+        System.out.println("Employee number: " + getEmpNum());
+        System.out.println("First Name: " + getFirstName());
+        System.out.println("Last Name: " + getLastName());
+        System.out.println("Age: " + getAge());
+        System.out.println("Course: " + getCourse());
+        System.out.print("Is the course active? " + isActive());
+    }
     
 }
