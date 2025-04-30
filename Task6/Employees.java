@@ -42,30 +42,36 @@ package Task6;
     Pay attention on the use of access modifiers and readability of the code. During the assessment of
     this task, special attention will be focused on the ability to implement basic principles of objectoriented programming: inheritance, encapsulation, and polymorphism.
  */
-public class Employee {
+public class Employees {
     // private data fields
     private int empNum;
     private String firstName;
     private String lastName;
     private int age;
 
+    public void print() {
+        System.out.println("Employee Number: " + getEmpNum());
+        System.out.println("First Name: " + getFirstName());
+        System.out.println("Last Name: " + getLastName());
+        System.out.println("Age: " + getAge());
+    }
 
     // Method constructors
-    public Employee(int number, String firstName, String lastName) {
+    public void Employee(int number, String firstName, String lastName) {
         this.empNum = number;
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public Employee(int number, String firstName, String lastName, int age) {
+    public void Employee(int number, String firstName, String lastName, int age) {
         this.empNum = number;
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
     }
-    
+
     // Get and set methods
-    public int empNum() {
+    public int getEmpNum() {
         return empNum;
     }
 
@@ -73,7 +79,7 @@ public class Employee {
         this.empNum = empNum;
     }
 
-    public String firstName() {
+    public String getFirstName() {
         return firstName;
     }
 
@@ -81,7 +87,7 @@ public class Employee {
         this.firstName = firstName;
     }
 
-    public String lastName() {
+    public String getLastName() {
         return lastName;
     }
 
@@ -89,7 +95,7 @@ public class Employee {
         this.lastName = lastName;
     }
 
-    public int age() {
+    public int getAge() {
         return age;
     }
 
