@@ -9,7 +9,16 @@ public class Professors extends Employees {
         super(number, firstName, lastName, age); // Kall til Employees(String name)
         this.course = course;
         this.courseIsActive = courseIsActive;
+    }
 
+    // Get methods
+
+    public String getCourse() {
+        return course;
+    }
+
+    public boolean isActive() {
+        return courseIsActive;
     }
     
 }
