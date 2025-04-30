@@ -38,10 +38,14 @@ package Task6;
 
     11. Create simple Test class with main method, that will create instances of one Professor and
     one Advisor and print details from both (5 points).
-    
+
     Pay attention on the use of access modifiers and readability of the code. During the assessment of
     this task, special attention will be focused on the ability to implement basic principles of objectoriented programming: inheritance, encapsulation, and polymorphism.
  */
 public class Employee {
-    
+    // private data fields
+    private int empNum;
+    private String firstName;
+    private String lastName;
+    private int age;
 }
