@@ -15,6 +15,8 @@ public class Task5 {
         System.out.print("Please enter a sentence: ");
         String userInput = scanner.nextLine();
 
+        scanner.close();
+
         printNumbersOfDigitsAndLetters(userInput);
     }
     
